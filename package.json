@@ -1,0 +1,21 @@
+{
+  "name": "watson-plugin-launchpad",
+  "version": "0.1.0",
+  "description": "Launchpad support for Watson",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "coffee --no-header -co ./out ./src"
+  },
+  "author": "Alexandru G.",
+  "license": "MIT",
+  "devDependencies": {
+    "coffee-script": "~1.7.1"
+  },
+  "main": "./out/launchpad.plugin.js",
+  "dependencies": {
+    "moment": "^2.8.3",
+    "nedb": "^0.11.1",
+    "taskgroup": "^4.0.5"
+  },
+  "private": true
+}
